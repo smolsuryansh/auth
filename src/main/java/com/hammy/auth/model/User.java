@@ -37,7 +37,7 @@ public class User implements UserDetails {
     private String verificationCode;
 
     @Column(name = "verificationExpiration")
-    private LocalDateTime verficiationCodeExpiresAt;
+    private LocalDateTime verificationCodeExpiresAt;
 
 
     public User(String username, String email, String password) {
